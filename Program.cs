@@ -21,10 +21,16 @@ namespace Tp1CSharp
             Console.WriteLine(livro.ToString());
 
             // Exercicio 3
-            Exercicio3 exercicio3 = new Exercicio3();
-            Func<int, double, double, double, double> valorDoPedido = exercicio3.ValorTotalDoPedido;
+            Exercicio3 exercicio3ValorDoPedido = new Exercicio3();
+            Func<int, double, double, double, double> valorDoPedido = exercicio3ValorDoPedido.ValorTotalDoPedido;
             double resultadoEx3 = valorDoPedido(5, 50, 20, 15);
             Console.WriteLine("Valor total do pedido = " + resultadoEx3);
+
+            // Exercicio 4
+            Exercicio4 exercicio4Alerta = new Exercicio4();
+            ClienteExercicio4 clienteExercicio4 = new ClienteExercicio4();
+            exercicio4Alerta.AlertaDelegate += clienteExercicio4.RecebeAlerta;
+            exercicio4Alerta.EnviarAlerta();
         }
     }
 }
