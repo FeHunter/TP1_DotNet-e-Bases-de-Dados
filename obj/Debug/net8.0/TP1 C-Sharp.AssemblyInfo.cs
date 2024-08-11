@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP1 C-Sharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30710a2c20d33d8159de1af58419e13623d728ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f870047f5be8046f6bce8ef0943b735ba0ca028")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP1 C-Sharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP1 C-Sharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
