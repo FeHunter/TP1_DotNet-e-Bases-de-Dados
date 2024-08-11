@@ -6,13 +6,19 @@ namespace Tp1CSharp
     {
         static void Main(string[] args)
         {
-            // Area do Circulo
+            // // Exercio 1 - Area do Circulo
             Exercicio1AreaCirculo exercicio1AreaCirculo= new Exercicio1AreaCirculo();
             exercicio1AreaCirculo.AreaCircula(5, 0);
 
-            // Area do Retangulo
+            // // Exercio 1 - Area do Retangulo
             Exercicio1AreaRetangulo areaRetangulo = new Exercicio1AreaRetangulo();
             areaRetangulo.AreaRetangulo(5, 2);
+
+            // Exercio 2
+            Exercicio2Livro livro = new Exercicio2Livro();
+            Action<string, string, int, double> registraLivro = livro.AdicionarLivro;
+            registraLivro("O Senhor dos Anéis", "J.R.R. Tolkien", 1954, 79.90);
+            Console.WriteLine(livro.ToString());
         }
     }
 }
